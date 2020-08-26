@@ -1,0 +1,1 @@
+export { DevToolsManager } from './DevTools';

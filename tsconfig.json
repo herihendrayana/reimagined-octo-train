@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "module": "es2015",
+    "jsx": "react",
+    "target": "es2015",
+    "allowJs": true,
+    "baseUrl": "./common/",
+    "paths": {
+      "shared*": ["../shared*"],
+      "types*": ["../shared/types*"]
+    },
+    "lib": ["esnext", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "noEmitOnError": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "pretty": true,
+    "noErrorTruncation": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": ["./scripts", "./common/", "./electron-app/", "./shared/", "spec"],
+  "exclude": ["./jest_config/**/*"],
+  "awesomeTypescriptLoaderOptions": {
+    "transpileOnly": true
+  }
+}
