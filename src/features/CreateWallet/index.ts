@@ -1,0 +1,1 @@
+export { PanelProps } from './types';

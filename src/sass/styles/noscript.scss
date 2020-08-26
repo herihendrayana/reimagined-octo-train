@@ -1,0 +1,6 @@
+@import "sass/variables";
+@import "sass/mixins";
+
+.NoScript {
+  @include cover-message;
+}
